@@ -1,0 +1,34 @@
+Travis CI is a CI tool used to build and test software projects hosted on GitHub.
+
+Features
+
+ • Quick setup.
+ • Live-build views.
+ • Pre-installed database services. 
+ • Auto-deployment on passing builds.
+ • Clean virtual machines for every build.
+
+Build Pipelines
+
+ • Specifically built around GitHub pull requests. 
+ • Travis CI allows you to independently test pull requests & branches. 
+ • Have to manually create a YAML file.
+ • Automatically detects new commits made and pushed to a Github repository.
+ • For easy monitoring, the test results are displayed on the GitHub UI.
+
+Integrations
+
+ • By default, TravisCI is built to work with GitHub.
+ • Very easy intergretion for beginners.
+ • Start by simply signing up and adding a project.
+
+Apps and plugin Ecosystem
+
+ • Pre-installed build & test tools.
+ • Over 21 languages supported.
+ • Has built in plugins however there are fewer than other CI tools
+ • Runs Test and generate results quickly. 
+ • Parallel test execution is possible.
+
+With its ease of use and and its limited fuss in setting up a testing framework 
+as well fi the users repoitory is on GitHub, Travis CI would be a good choice as a CI tool.
