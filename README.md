@@ -1,7 +1,56 @@
 # CI-CD-Project
 
+CI/CD features with CircleCI
 
-TeamCity 
+Some of the features encountered when building code via pipelines on CircleCI are:
+
+
+- Parallel test splitting: To reduce time, run tests in parallel by spreading them across multiple, separate containers.
+
+- Orbs: Orbs are reusable packages of YAML configuration that condense repeated pieces of config into single lines of code.
+
+Setup:
+
+
+- VCS authentication directly from the CircleCI UI
+
+- Import repositories as projects
+
+- Declarative YAML configuration for all features, defined in a single config.yml file
+  Reusable code snippets to simplify multi-project setup and maintenance
+
+Hosting:
+
+- CircleCI does not require a dedicated internal server as it is a cloud-hosted platform. Instead, it runs on an online server that can be scaled as per requirements
+
+- It is a highly independent solution that automatically executes added code in a fresh container every time.
+
+
+Build Configuration:
+
+- It is possible to build all the running processes in a single file (named circle.yaml). It makes continuous integration as easy as managing a code repository
+
+- Sharing configuration details with the team and maintaining a backup becomes hassle free
+
+User Interface:
+
+- The User Interface regularly gets updated, it's built in support and responsiveness makes the UI easy to use
+
+- The additional built-in support and responsiveness make CircleCI’s UI smooth for users
+
+
+
+Cons of CircleCI
+
+- Available for only GitHub or BitBucket repositories
+
+- Plugins are not compatible with every CI/CD flow customization
+
+- Requires purchasing extra credits as the tool does not have unlimited builds.
+
+- Also, while being a cloud-based system is a plus from one side, it can also stop supporting any software, and you won’t be able to prevent that
+
+TeamCity
 	-Set up CI/CD Tools & Configuration
 		-TeamCity can help as it has many plugins out of the box e.g. Gradle, NodeJS, you don’t need to install and configure any of those plugins.
 
