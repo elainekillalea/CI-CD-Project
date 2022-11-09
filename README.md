@@ -1,6 +1,56 @@
 # CI-CD-Project
 
-TeamCity 
+CI/CD features with CircleCI
+
+Some of the features encountered when building code via pipelines on CircleCI are:
+
+
+- Parallel test splitting: To reduce time, run tests in parallel by spreading them across multiple, separate containers.
+
+- Orbs: Orbs are reusable packages of YAML configuration that condense repeated pieces of config into single lines of code.
+
+Setup:
+
+
+- VCS authentication directly from the CircleCI UI
+
+- Import repositories as projects
+
+- Declarative YAML configuration for all features, defined in a single config.yml file
+  Reusable code snippets to simplify multi-project setup and maintenance
+
+Hosting:
+
+- CircleCI does not require a dedicated internal server as it is a cloud-hosted platform. Instead, it runs on an online server that can be scaled as per requirements
+
+- It is a highly independent solution that automatically executes added code in a fresh container every time.
+
+
+Build Configuration:
+
+- It is possible to build all the running processes in a single file (named circle.yaml). It makes continuous integration as easy as managing a code repository
+
+- Sharing configuration details with the team and maintaining a backup becomes hassle free
+
+User Interface:
+
+- The User Interface regularly gets updated, it's built in support and responsiveness makes the UI easy to use
+
+- The additional built-in support and responsiveness make CircleCI’s UI smooth for users
+
+
+
+Cons of CircleCI
+
+- Available for only GitHub or BitBucket repositories
+
+- Plugins are not compatible with every CI/CD flow customization
+
+- Requires purchasing extra credits as the tool does not have unlimited builds.
+
+- Also, while being a cloud-based system is a plus from one side, it can also stop supporting any software, and you won’t be able to prevent that
+
+TeamCity
 	-Set up CI/CD Tools & Configuration
 		-TeamCity can help as it has many plugins out of the box e.g. Gradle, NodeJS, you don’t need to install and configure any of those plugins.
 
@@ -39,3 +89,41 @@ TeamCity
 	It is not widely used and has fewer users. It also has less documentation on its website than competitors.
 
 	It has a security feature by default and password masking unlike its competitors.
+
+Jenkins
+- Most companies use Jenkins
+- divided into two parts
+    - a control server 
+    - an agent node
+- Pipeline code can be stored in a versional control like GIT
+- Thousand of pre-built plugins
+- Can use foresight to debug failed test
+- Two main Pipelines in Jenkins Scripted and Declarative
+- Scripted 
+  - Uses Groovy language 
+    - making numerous API's available
+  - scripted syntax is power but it makes the pipeline hard to read hence you must use API's
+
+- Declarative 
+  - follows a newer syntax
+    - this narrows the cope of the pipeline
+      - gives a defined "minimum necessary structure"
+    - declarative syntax follows statement logic
+      - which generates a series of stages 
+  - Does not have access to API's but is much easier to read
+  
+- Stages
+  -stages are sequential block of pipeline processes that are executed in order
+  - each stage is a self-contained unit of work
+  - they are chained together to form pipelines
+  
+- There are two stages for declarative pipelines
+  - parallel stage and Sequential stage
+    - parallel stage 
+      - variable numbers of stages can be executed together
+        - common and well known for unit build and tests for across multiply platforms
+        - developers can abort parallel stages if if one causes a problem
+    - Sequential stage
+      - extends the capability of the parallel stage
+        - allowing nesting of multiple stages withing each parallel branch 
+        - Allows more visibility into the sequence of stages 
