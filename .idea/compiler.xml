@@ -9,5 +9,8 @@
         <module name="CI-CD-Project" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CI-CD-Project" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>
