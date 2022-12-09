@@ -1,7 +1,10 @@
+import java.awt.*;
+import java.io.IOException;
 import java.util.Scanner;
+
 public class CalculatorMain {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         int n = 5, m = 6;
 
         Calculator cal = new Calculator();
@@ -29,5 +32,6 @@ public class CalculatorMain {
                 break;
         }
         System.out.println(sum);
+
     }
 }
