@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalculatorTest" time="0.073" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalculatorTest" time="0.087" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\g00370083\AppData\Local\Temp\surefire4705940505502343634\surefirebooter10863327564808174661.jar C:\Users\g00370083\AppData\Local\Temp\surefire4705940505502343634 2022-12-02T18-40-22_681-jvmRun1 surefire2364854642076107211tmp surefire_07244151370475533268tmp"/>
+    <property name="sun.java.command" value="C:\Users\g00370083\AppData\Local\Temp\surefire8438891065010223086\surefirebooter3786201120534734928.jar C:\Users\g00370083\AppData\Local\Temp\surefire8438891065010223086 2022-12-09T13-39-29_788-jvmRun1 surefire8661003367599728760tmp surefire_03446691426419958541tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\g00370083\Desktop\CI-CD-Project\target\test-classes;C:\Users\g00370083\Desktop\CI-CD-Project\target\classes;C:\Users\g00370083\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\g00370083\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\g00370083\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\g00370083\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\g00370083\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\g00370083\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,11 +30,11 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\g00370083\AppData\Local\Temp\surefire4705940505502343634\surefirebooter10863327564808174661.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\g00370083\AppData\Local\Temp\surefire8438891065010223086\surefirebooter3786201120534734928.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
-    <property name="user.name" value="G00370083"/>
+    <property name="user.name" value="g00370083"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -56,8 +56,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testAdd" classname="CalculatorTest" time="0.044"/>
+  <testcase name="testAdd" classname="CalculatorTest" time="0.056"/>
   <testcase name="testSubtract" classname="CalculatorTest" time="0.001"/>
-  <testcase name="testDivide" classname="CalculatorTest" time="0.001"/>
+  <testcase name="testDivide" classname="CalculatorTest" time="0.002"/>
   <testcase name="testMultiply" classname="CalculatorTest" time="0.001"/>
 </testsuite>
