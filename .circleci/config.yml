@@ -1,23 +1,13 @@
 version: 2.1
+executors:
+  java17:
+    docker:
+      - image: 'cimg/openjdk:17.0'
 orbs:
-  maven: circleci/maven@1.4.0
-
+  maven: circleci/maven@1.3.0
 workflows:
-  workflow:
+  maven_test:
     jobs:
-      - maven/test
-
-dependencies:
-  override:
-    - mvn -DskipTests clean install dependency:resolve-plugins dependency:go-offline
-
-test:
-  override:
-    - mvn -o surefire:test
-
-
-deployment:
-  main:
-    branch: main
-    commands:
-      - mvn -s .circleci.settings.xml -DskipTests deploy
+      - maven/test:
+          command: '-X compile'
+          executor: java17
