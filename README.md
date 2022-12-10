@@ -1,11 +1,11 @@
 # CI-CD-Project
 
 Running the docker image:
-package
+Package
 Edit docker image
 Image tag xxx:1.n+1
 Run
-docker run -i -t calcimage:1.9
+docker run -i -t calcimage:1.n
 
 
 
