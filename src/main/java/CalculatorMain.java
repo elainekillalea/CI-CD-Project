@@ -8,6 +8,8 @@ public class CalculatorMain {
         int n = 5, m = 6;
 
         Calculator cal = new Calculator();
+        Add Add = new Add();
+        Subtract Sub = new Subtract();
 
         Scanner s = new Scanner(System.in);
         System.out.print("Enter operator ");
@@ -16,10 +18,10 @@ public class CalculatorMain {
 
         switch(x){
             case "+":
-                sum = cal.add(n, m);
+                sum = Add.add(n, m);
                 break;
             case "-":
-                sum = cal.subtract(n, m);
+                sum = Sub.subtract(n, m);
                 break;
             case "x":
                 sum = cal.multiply(n, m);
