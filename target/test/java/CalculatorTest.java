@@ -8,10 +8,13 @@ public class CalculatorTest {
     Calculator myTotal;
     Add addTotal;
     Subtract subTotal;
+    Multiply Mul;
+    Divide Div;
 
     @BeforeEach
     void setUp() {
-        myTotal = new Calculator();
+        Mul = new Multiply();
+        Div = new Divide();
     }
 
     @Test
@@ -21,10 +24,10 @@ public class CalculatorTest {
     void testSubtract(){assertEquals(0,subTotal.subtract(1,1));}
 
     @Test
-    void testDivide(){assertEquals(1,myTotal.divide(1,1));}
+    void testDivide(){assertEquals(1, Div.divide(1,1));}
 
     @Test
-    void testMultiply(){assertEquals(0,myTotal.multiply(0,3));}
+    void testMultiply(){assertEquals(0,Mul.multiply(0,3));}
 
     @AfterEach
     void tearDown() {
