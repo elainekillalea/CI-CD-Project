@@ -1,3 +1,5 @@
+package ie.atu;
+
 public class Divide {
 
     public double divide(double x,double y){
@@ -5,3 +7,4 @@ public class Divide {
         return total;
     }
 }
+

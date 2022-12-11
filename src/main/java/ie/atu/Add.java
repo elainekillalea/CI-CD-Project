@@ -1,3 +1,5 @@
+package ie.atu;
+
 public class Add {
 
     public int add(int x, int y){
@@ -5,3 +7,4 @@ public class Add {
         return total;
     }
 }
+
