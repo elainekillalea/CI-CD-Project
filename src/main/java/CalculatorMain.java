@@ -7,7 +7,7 @@ public class CalculatorMain {
     public static void main(String[] args) throws IOException {
         int n = 5, m = 6;
 
-        Calculator cal = new Calculator();
+
         Add Add = new Add();
         Subtract Sub = new Subtract();
         Multiply Mul = new Multiply();
@@ -20,6 +20,7 @@ public class CalculatorMain {
         double sum = 0;
 
         switch(x){
+
             case "+":
                 sum = Add.add(n, m);
                 break;
