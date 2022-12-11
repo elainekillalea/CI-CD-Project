@@ -1,11 +1,13 @@
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+package ie.atu;
 
-import static org.junit.jupiter.api.Assertions.*;
 
-public class CalculatorTest {
-    Calculator myTotal;
+        import org.junit.jupiter.api.AfterEach;
+        import org.junit.jupiter.api.BeforeEach;
+        import org.junit.jupiter.api.Test;
+
+        import static org.junit.jupiter.api.Assertions.*;
+
+class CalculatorMainTest{
     Add addTotal;
     Subtract subTotal;
     Multiply Mul;
@@ -13,8 +15,6 @@ public class CalculatorTest {
 
     @BeforeEach
     void setUp() {
-        Mul = new Multiply();
-        Div = new Divide();
     }
 
     @Test

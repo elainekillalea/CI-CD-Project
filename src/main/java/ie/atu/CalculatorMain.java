@@ -11,26 +11,31 @@ public class CalculatorMain {
 
         Calculator cal = new Calculator();
 
+        Add Add = new Add();
+        Subtract Sub = new Subtract();
+        Multiply Mul = new Multiply();
+        Divide Divide = new Divide();
+
         Scanner s = new Scanner(System.in);
         System.out.print("Enter operator ");
         char op = s.next().charAt(0);
-        int sum;
+        double sum = 0;
 
         switch (op) {
             case '+' -> {
-                sum = cal.add(n, m);
+                sum = Add.add(n, m);
                 System.out.println(n + "+" + m + "=" + sum);
             }
             case '-' -> {
-                sum = cal.subtract(n, m);
+                sum = Sub.subtract(n, m);
                 System.out.println(n + "-" + m + "=" + sum);
             }
             case '*' -> {
-                sum = cal.multiply(n, m);
+                sum = Mul.multiply(n, m);
                 System.out.println(n + "*" + m + "=" + sum);
             }
             case '/' -> {
-                sum = cal.divide(n, m);
+                sum = Divide.divide(n, m);
                 System.out.println(n + "/" + m + "=" + sum);
             }
             default -> System.out.print("Invalid operator");

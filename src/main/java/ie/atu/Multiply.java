@@ -1,3 +1,5 @@
+package ie.atu;
+
 public class Multiply {
 
     public int multiply(int x,int y){
