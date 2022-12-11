@@ -1,7 +1,5 @@
 package ie.atu;
 
-import ie.atu.Calculator;
-
 import java.util.Scanner;
 
 public class CalculatorMain {
@@ -9,7 +7,7 @@ public class CalculatorMain {
     public static void main(String[] args) {
         int n = 5, m = 6;
 
-        Calculator cal = new Calculator();
+
 
 
         Add Add = new Add();
