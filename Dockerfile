@@ -1,4 +1,4 @@
 FROM openjdk:17
 COPY target/classes/ /tmp
 WORKDIR /tmp
-CMD java CalculatorMain
+CMD java ie.atu.CalculatorMain

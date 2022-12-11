@@ -1,5 +1,14 @@
 # CI-CD-Project
 
+Running the docker image:
+Package -> 
+Edit docker image -> 
+Image tag xxx:1.n+1 -> 
+Run -> 
+docker run -i -t calcimage:1.n
+
+
+
 CI/CD features with CircleCI
 
 Some of the features encountered when building code via pipelines on CircleCI are:

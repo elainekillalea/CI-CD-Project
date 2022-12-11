@@ -1,3 +1,5 @@
+package ie.atu;
+
 public class Calculator {
     private int total;
     private int x;
