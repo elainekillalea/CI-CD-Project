@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalculatorTest" time="0.371" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -14,8 +13,7 @@
     <property name="java.vm.specification.version" value="15"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IE"/>
-    <property name="sun.boot.library.path" value="C:\Users\ellak\.jdks\openjdk-15\bin"/>
-    <property name="sun.java.command" value="C:\Users\ellak\AppData\Local\Temp\surefire6433378481593391901\surefirebooter15247613177060097724.jar C:\Users\ellak\AppData\Local\Temp\surefire6433378481593391901 2022-12-10T11-51-09_571-jvmRun1 surefire12830123913255235557tmp surefire_018278767730044670535tmp"/>
+   
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ellak\OneDrive - Atlantic TU\CICD\CI-CD-Project\target\test-classes;C:\Users\ellak\OneDrive - Atlantic TU\CICD\CI-CD-Project\target\classes;C:\Users\ellak\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\ellak\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ellak\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\ellak\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ellak\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\ellak\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,11 +28,8 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ellak\AppData\Local\Temp\surefire6433378481593391901\surefirebooter15247613177060097724.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="15+36-1562"/>
-    <property name="user.name" value="ElaineK"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
