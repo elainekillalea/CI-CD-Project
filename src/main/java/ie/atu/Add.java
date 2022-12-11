@@ -7,3 +7,4 @@ public class Add {
         return total;
     }
 }
+

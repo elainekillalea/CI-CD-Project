@@ -32,6 +32,4 @@ public class Calculator {
         total = x - y;
         return total;
     }
-
-
 }

@@ -7,3 +7,4 @@ public class Multiply {
         return total;
     }
 }
+

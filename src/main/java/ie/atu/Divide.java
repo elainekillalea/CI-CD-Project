@@ -7,3 +7,4 @@ public class Divide {
         return total;
     }
 }
+
