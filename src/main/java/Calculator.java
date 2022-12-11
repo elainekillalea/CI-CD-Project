@@ -13,6 +13,15 @@ public class Calculator {
         total = 0;
     }
 
+    public int divide(int x,int y){
+        total = x/y;
+        return total;
+    }
+    public int multiply(int x,int y){
+        total = x*y;
+        return total;
+    }
+
     public int add(int x, int y){
         total = x + y;
         return total;
