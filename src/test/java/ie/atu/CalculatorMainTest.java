@@ -16,6 +16,10 @@ class CalculatorMainTest{
 
     @BeforeEach
     void setUp() {
+        addTotal = new Add();
+        subTotal = new Subtract();
+        Mul = new Multiply();
+        Div = new Divide();
     }
 
     @Test
