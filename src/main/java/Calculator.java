@@ -4,9 +4,7 @@ public class Calculator {
     private int y;
 
     public Calculator()
-    {
-
-    }
+    {}
 
     public Calculator(int num1, int num2)
     {
@@ -23,12 +21,6 @@ public class Calculator {
         total = x - y;
         return total;
     }
-    public int divide(int x,int y){
-        total = x/y;
-        return total;
-    }
-    public int multiply(int x,int y){
-        total = x*y;
-        return total;
-    }
+
+
 }

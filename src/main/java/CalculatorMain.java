@@ -8,11 +8,13 @@ public class CalculatorMain {
         int n = 5, m = 6;
 
         Calculator cal = new Calculator();
+        Multiply Mul = new Multiply();
+        Divide Divide = new Divide();
 
         Scanner s = new Scanner(System.in);
         System.out.print("Enter operator ");
         String x = s.next();
-        int sum = 0;
+        double sum = 0;
 
         switch(x){
             case "+":
@@ -22,10 +24,10 @@ public class CalculatorMain {
                 sum = cal.subtract(n, m);
                 break;
             case "x":
-                sum = cal.multiply(n, m);
+                sum = Mul.multiply(n, m);
                 break;
             case "/":
-                sum = cal.divide(n, m);
+                sum = Divide.divide(n, m);
                 break;
             default:
                 System.out.print("Invalid operator");
