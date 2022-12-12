@@ -8,6 +8,7 @@ package ie.atu;
         import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorMainTest{
+
     Add addTotal;
     Subtract subTotal;
     Multiply Mul;
