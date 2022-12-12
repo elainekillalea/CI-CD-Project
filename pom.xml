@@ -8,25 +8,25 @@
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
     <dependencies>
-        <!--  https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api  -->
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.9.1</version>
             <scope>test</scope>
         </dependency>
-        <!--  https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine  -->
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.9.1</version>
             <scope>test</scope>
         </dependency>
-    <dependency>
+        <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
             <version>3.0.0-M6</version>
-    </dependency>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
