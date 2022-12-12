@@ -12,7 +12,8 @@ class CalculatorMainTest{
     Subtract subTotal;
     Multiply Mul;
     Divide Div;
-
+    CalculatorMain Main;
+    calculatingNumber cal;
 
     @BeforeEach
     void setUp() {
@@ -20,6 +21,7 @@ class CalculatorMainTest{
         subTotal = new Subtract();
         Mul = new Multiply();
         Div = new Divide();
+        cal = new calculatingNumber();
     }
 
     @Test
@@ -33,6 +35,14 @@ class CalculatorMainTest{
 
     @Test
     void testMultiply(){assertEquals(0,Mul.multiply(0,3));}
+
+    @Test
+    void testCalculatingNumbers(){
+        assertTrue(cal.calculatingNumbers('+',5,6)==11);
+        assertTrue(cal.calculatingNumbers('-',5,6)==1.0);
+        assertTrue(cal.calculatingNumbers('*',5,6)==30);
+        assertTrue(cal.calculatingNumbers('/',5,6)==11);
+    }
 
     @AfterEach
     void tearDown() {
