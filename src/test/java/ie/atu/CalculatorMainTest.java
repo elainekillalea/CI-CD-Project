@@ -13,7 +13,6 @@ class CalculatorMainTest{
     Multiply Mul;
     Divide Div;
 
-
     @BeforeEach
     void setUp() {
         addTotal = new Add();
